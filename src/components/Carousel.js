@@ -7,6 +7,12 @@ import Row from 'react-bootstrap/Row';
 import WePickSignUp from '../assets/images/WePickSignUp.png';
 import WePickGuardians from '../assets/images/WePickGuardians.png';
 import WePickTransformers from '../assets/images/WePickTransformers.png';
+import rps from '../assets/images/rps.png';
+import WeatherAPI from '../assets/images/WeatherAPI.png';
+import Bank from '../assets/images/Bank.png';
+import Acebook from '../assets/images/Acebook.png';
+import fireworksbnb from '../assets/images/fireworksbnb.png';
+import feijoa from '../assets/images/feijoa.png';
 
 
 class Carousel extends React.Component {
@@ -26,18 +32,18 @@ class Carousel extends React.Component {
         },
         {
           id: 1,
-          title: 'Chitter',
-          description: 'A test driven, lightweight twitter clone built from the ground up.',
-          imgSrc: WePickTransformers,
-          link: 'https://github.com/hansa-lallu/chitter-challenge',
-          techStack: 'Ruby | Sinatra | RSpec | Capybara | PostgreSQL | HTML | CSS',
+          title: 'Feijoa',
+          description: 'A CRUD application built from scratch to learn the basics of Node.js and Express.js',
+          imgSrc: feijoa,
+          link: 'https://github.com/hansa-lallu/bank-tech-test',
+          techStack: "Node.js | Express.js | MongoDB | HTML | CSS",
           selected: false
         },
         {
           id: 2,
           title: 'Bank',
           description: 'A tech test that allows users to create a bank account, make deposits and withdraw funds and print a bank statement. This was a test that made me realise how far I had come in terms of Object Orientated programming and Test Driven Development.',
-          imgSrc: WePickGuardians,
+          imgSrc: Bank,
           link: 'https://github.com/hansa-lallu/bank-tech-test',
           techStack: "Ruby | RSpec",
           selected: false
@@ -46,54 +52,54 @@ class Carousel extends React.Component {
           id: 3,
           title: 'Acebook',
           description: 'Working in a team of 6 to create a social media platform. As a team, we learnt a lot about collaborating with git, delegation of work, regular stand-ups, and working with XP values and agile practices.',
-          imgSrc: WePickGuardians,
+          imgSrc: Acebook,
           link: 'https://github.com/hansa-lallu/bank-tech-test',
           techStack: "Ruby on Rails | PostgreSQL | RSpec | Cabybara | Bootstrap | HTML | CSS | Heroku",
           selected: false
         },
         {
           id: 4,
-          title: 'Number 3',
-          description: 'A Tech test to demonstrate OOP',
-          imgSrc: WePickGuardians,
+          title: 'Weather API',
+          description: 'Search temperature of a city using an open source weather API. Background changes dependent on temperature.',
+          imgSrc: WeatherAPI,
           link: 'https://github.com/hansa-lallu/bank-tech-test',
-          techStack: "",
+          techStack: "React | Jest",
           selected: false
         },
         {
           id: 5,
-          title: 'Number 5',
-          description: 'A Tech test to demonstrate OOP',
-          imgSrc: WePickGuardians,
+          title: 'Rock Paper Scissors',
+          description: 'Classic game played against the computer.',
+          imgSrc: rps,
           link: 'https://github.com/hansa-lallu/bank-tech-test',
-          techStack: "",
+          techStack: "JavaScript | HTML | CSS",
           selected: false
         },
         {
           id: 6,
-          title: 'Number 6',
+          title: 'News Summary',
           description: 'A Tech test to demonstrate OOP',
           imgSrc: WePickGuardians,
           link: 'https://github.com/hansa-lallu/bank-tech-test',
-          techStack: "",
+          techStack: "JavaScript | Jasmine ",
           selected: false
         },
         {
           id: 7,
-          title: 'Number 7',
-          description: 'A Tech test to demonstrate OOP',
-          imgSrc: WePickGuardians,
+          title: 'Fireworks BnB',
+          description: 'An AirBnB clone, created as a group project.',
+          imgSrc: fireworksbnb,
           link: 'https://github.com/hansa-lallu/bank-tech-test',
-          techStack: "",
+          techStack: "Ruby | HTML | CSS | RSpec | Active Record | PostgreSQL | Sinatra",
           selected: false
         },
         {
           id: 8,
-          title: 'Number 8',
-          description: 'A Tech test to demonstrate OOP',
-          imgSrc: WePickGuardians,
-          link: 'https://github.com/hansa-lallu/bank-tech-test',
-          techStack: "",
+          title: 'Chitter',
+          description: 'A test driven, lightweight twitter clone built from the ground up.',
+          imgSrc: WePickTransformers,
+          link: 'https://github.com/hansa-lallu/chitter-challenge',
+          techStack: 'Ruby | Sinatra | RSpec | Capybara | PostgreSQL | HTML | CSS',
           selected: false
         },
       ]

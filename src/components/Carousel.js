@@ -18,7 +18,7 @@ class Carousel extends React.Component {
         {
           id: 0,
           title: 'WePick',
-          subTitle: 'Match on a Movie App',
+          description: 'Match on a Movie App',
           imgSrc: WePickSignUp,
           link: 'https://devgrub.com',
           selected: false
@@ -26,7 +26,7 @@ class Carousel extends React.Component {
         {
           id: 1,
           title: 'Chitter',
-          subTitle: 'Twitter Clone',
+          description: 'Twitter Clone',
           imgSrc: WePickTransformers,
           link: 'https://github.com/hansa-lallu/chitter-challenge',
           selected: false
@@ -34,7 +34,55 @@ class Carousel extends React.Component {
         {
           id: 2,
           title: 'Bank',
-          subTitle: 'A Tech test to demonstrate OOP',
+          description: 'A Tech test to demonstrate OOP',
+          imgSrc: WePickGuardians,
+          link: 'https://github.com/hansa-lallu/bank-tech-test',
+          selected: false
+        },
+        {
+          id: 3,
+          title: 'Number 3',
+          description: 'A Tech test to demonstrate OOP',
+          imgSrc: WePickGuardians,
+          link: 'https://github.com/hansa-lallu/bank-tech-test',
+          selected: false
+        },
+        {
+          id: 4,
+          title: 'Number 4',
+          description: 'A Tech test to demonstrate OOP',
+          imgSrc: WePickGuardians,
+          link: 'https://github.com/hansa-lallu/bank-tech-test',
+          selected: false
+        },
+        {
+          id: 5,
+          title: 'Number 5',
+          description: 'A Tech test to demonstrate OOP',
+          imgSrc: WePickGuardians,
+          link: 'https://github.com/hansa-lallu/bank-tech-test',
+          selected: false
+        },
+        {
+          id: 6,
+          title: 'Number 6',
+          description: 'A Tech test to demonstrate OOP',
+          imgSrc: WePickGuardians,
+          link: 'https://github.com/hansa-lallu/bank-tech-test',
+          selected: false
+        },
+        {
+          id: 7,
+          title: 'Number 7',
+          description: 'A Tech test to demonstrate OOP',
+          imgSrc: WePickGuardians,
+          link: 'https://github.com/hansa-lallu/bank-tech-test',
+          selected: false
+        },
+        {
+          id: 8,
+          title: 'Number 8',
+          description: 'A Tech test to demonstrate OOP',
           imgSrc: WePickGuardians,
           link: 'https://github.com/hansa-lallu/bank-tech-test',
           selected: false

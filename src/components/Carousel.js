@@ -18,41 +18,46 @@ class Carousel extends React.Component {
         {
           id: 0,
           title: 'WePick',
-          description: 'Match on a Movie App',
+          description: 'Makers Final Project. Teamed up with 5 individuals to overcome a common decision making problem - What movie to watch? Two users start a session and individually like and dislike movies. Once there is a match they are alerted and shown where they can watch the matched movie.',
           imgSrc: WePickSignUp,
           link: 'https://devgrub.com',
+          techStack: "Ruby on Rails | PostgreSQL | HTML | CSS | Bootstrap | TMDB and Utelly API integration | RSpec | Capybara | Code Climate | Travis CI",
           selected: false
         },
         {
           id: 1,
           title: 'Chitter',
-          description: 'Twitter Clone',
+          description: 'A test driven, lightweight twitter clone built from the ground up.',
           imgSrc: WePickTransformers,
           link: 'https://github.com/hansa-lallu/chitter-challenge',
+          techStack: 'Ruby | Sinatra | RSpec | Capybara | PostgreSQL | HTML | CSS',
           selected: false
         },
         {
           id: 2,
           title: 'Bank',
-          description: 'A Tech test to demonstrate OOP',
+          description: 'A tech test that allows users to create a bank account, make deposits and withdraw funds and print a bank statement. This was a test that made me realise how far I had come in terms of Object Orientated programming and Test Driven Development.',
           imgSrc: WePickGuardians,
           link: 'https://github.com/hansa-lallu/bank-tech-test',
+          techStack: "Ruby | RSpec",
           selected: false
         },
         {
           id: 3,
-          title: 'Number 3',
-          description: 'A Tech test to demonstrate OOP',
+          title: 'Acebook',
+          description: 'Working in a team of 6 to create a social media platform. As a team, we learnt a lot about collaborating with git, delegation of work, regular stand-ups, and working with XP values and agile practices.',
           imgSrc: WePickGuardians,
           link: 'https://github.com/hansa-lallu/bank-tech-test',
+          techStack: "Ruby on Rails | PostgreSQL | RSpec | Cabybara | Bootstrap | HTML | CSS | Heroku",
           selected: false
         },
         {
           id: 4,
-          title: 'Number 4',
+          title: 'Number 3',
           description: 'A Tech test to demonstrate OOP',
           imgSrc: WePickGuardians,
           link: 'https://github.com/hansa-lallu/bank-tech-test',
+          techStack: "",
           selected: false
         },
         {
@@ -61,6 +66,7 @@ class Carousel extends React.Component {
           description: 'A Tech test to demonstrate OOP',
           imgSrc: WePickGuardians,
           link: 'https://github.com/hansa-lallu/bank-tech-test',
+          techStack: "",
           selected: false
         },
         {
@@ -69,6 +75,7 @@ class Carousel extends React.Component {
           description: 'A Tech test to demonstrate OOP',
           imgSrc: WePickGuardians,
           link: 'https://github.com/hansa-lallu/bank-tech-test',
+          techStack: "",
           selected: false
         },
         {
@@ -77,6 +84,7 @@ class Carousel extends React.Component {
           description: 'A Tech test to demonstrate OOP',
           imgSrc: WePickGuardians,
           link: 'https://github.com/hansa-lallu/bank-tech-test',
+          techStack: "",
           selected: false
         },
         {
@@ -85,6 +93,7 @@ class Carousel extends React.Component {
           description: 'A Tech test to demonstrate OOP',
           imgSrc: WePickGuardians,
           link: 'https://github.com/hansa-lallu/bank-tech-test',
+          techStack: "",
           selected: false
         },
       ]

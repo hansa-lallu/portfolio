@@ -26,7 +26,7 @@ class Carousel extends React.Component {
           title: 'WePick',
           description: 'Makers Final Project. Teamed up with 5 individuals to overcome a common decision making problem - What movie to watch? Two users start a session and individually like and dislike movies. Once there is a match they are alerted and shown where they can watch the matched movie.',
           imgSrc: WePickSignUp,
-          link: 'https://devgrub.com',
+          link: 'https://github.com/jasylwong/wepick',
           techStack: "Ruby on Rails | PostgreSQL | HTML | CSS | Bootstrap | TMDB and Utelly API integration | RSpec | Capybara | Code Climate | Travis CI",
           selected: false
         },
@@ -35,7 +35,7 @@ class Carousel extends React.Component {
           title: 'Feijoa',
           description: 'A CRUD application built from scratch to learn the basics of Node.js and Express.js',
           imgSrc: feijoa,
-          link: 'https://github.com/hansa-lallu/bank-tech-test',
+          link: 'https://github.com/hansa-lallu/retail-app',
           techStack: "Node.js | Express.js | MongoDB | HTML | CSS",
           selected: false
         },
@@ -53,7 +53,7 @@ class Carousel extends React.Component {
           title: 'Acebook',
           description: 'Working in a team of 6 to create a social media platform. As a team, we learnt a lot about collaborating with git, delegation of work, regular stand-ups, and working with XP values and agile practices.',
           imgSrc: Acebook,
-          link: 'https://github.com/hansa-lallu/bank-tech-test',
+          link: 'https://github.com/Megscode/acebook_undefined',
           techStack: "Ruby on Rails | PostgreSQL | RSpec | Cabybara | Bootstrap | HTML | CSS | Heroku",
           selected: false
         },
@@ -62,7 +62,7 @@ class Carousel extends React.Component {
           title: 'Weather API',
           description: 'Search temperature of a city using an open source weather API. Background changes dependent on temperature.',
           imgSrc: WeatherAPI,
-          link: 'https://github.com/hansa-lallu/bank-tech-test',
+          link: 'https://github.com/hansa-lallu/weather-app',
           techStack: "React | Jest",
           selected: false
         },
@@ -71,16 +71,16 @@ class Carousel extends React.Component {
           title: 'Rock Paper Scissors',
           description: 'Classic game played against the computer.',
           imgSrc: rps,
-          link: 'https://github.com/hansa-lallu/bank-tech-test',
+          link: 'https://github.com/hansa-lallu/rps-js',
           techStack: "JavaScript | HTML | CSS",
           selected: false
         },
         {
           id: 6,
           title: 'News Summary',
-          description: 'A Tech test to demonstrate OOP',
+          description: '',
           imgSrc: WePickGuardians,
-          link: 'https://github.com/hansa-lallu/bank-tech-test',
+          link: 'https://github.com/lookupdaily/news-summary-challenge',
           techStack: "JavaScript | Jasmine ",
           selected: false
         },
@@ -89,7 +89,7 @@ class Carousel extends React.Component {
           title: 'Fireworks BnB',
           description: 'An AirBnB clone, created as a group project.',
           imgSrc: fireworksbnb,
-          link: 'https://github.com/hansa-lallu/bank-tech-test',
+          link: 'https://github.com/DavidStewartLDN/fireworksBnB',
           techStack: "Ruby | HTML | CSS | RSpec | Active Record | PostgreSQL | Sinatra",
           selected: false
         },

@@ -87,10 +87,10 @@ class Carousel extends React.Component {
         {
           id: 7,
           title: 'Fireworks BnB',
-          description: 'An AirBnB clone, created as a group project.',
+          description: 'An AirBnB clone, created as a group project in week six of the course.',
           imgSrc: fireworksbnb,
           link: 'https://github.com/DavidStewartLDN/fireworksBnB',
-          techStack: "Ruby | HTML | CSS | RSpec | Active Record | PostgreSQL | Sinatra",
+          techStack: "Ruby | HTML | CSS | RSpec | Cabybara | Active Record | PostgreSQL | Sinatra",
           selected: false
         },
         {

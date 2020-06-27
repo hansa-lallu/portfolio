@@ -22,4 +22,3 @@ describe('Navbar', () => {
     expect(linkElement).toBeInTheDocument();
   });
 });
-

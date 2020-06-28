@@ -12,6 +12,7 @@ https://hansa.netlify.app/
 - React
 - Bootstrap
 - CSS
+- Deployed using Netlify
 
 
 

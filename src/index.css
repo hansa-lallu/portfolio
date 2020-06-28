@@ -46,3 +46,9 @@ code {
   padding-bottom: 0.3cm;
   margin: 0px;
 }
+
+.jumbotron{
+  background-image: url(../src/assets/images/blushsmoke.jpeg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}

@@ -5,8 +5,7 @@ import Row from 'react-bootstrap/Row';
 
 
 import WePickSignUp from '../assets/images/WePickSignUp.png';
-import WePickGuardians from '../assets/images/WePickGuardians.png';
-import WePickTransformers from '../assets/images/WePickTransformers.png';
+import ComingSoon from '../assets/images/ComingSoon.png';
 import rps from '../assets/images/rps.png';
 import WeatherAPI from '../assets/images/WeatherAPI.png';
 import Bank from '../assets/images/Bank.png';
@@ -79,7 +78,7 @@ class Carousel extends React.Component {
           id: 6,
           title: 'News Summary',
           description: '',
-          imgSrc: WePickGuardians,
+          imgSrc: ComingSoon,
           link: 'https://github.com/lookupdaily/news-summary-challenge',
           techStack: "JavaScript | Jasmine ",
           selected: false
@@ -97,7 +96,7 @@ class Carousel extends React.Component {
           id: 8,
           title: 'Chitter',
           description: 'A test driven, lightweight twitter clone built from the ground up.',
-          imgSrc: WePickTransformers,
+          imgSrc: ComingSoon,
           link: 'https://github.com/hansa-lallu/chitter-challenge',
           techStack: 'Ruby | Sinatra | RSpec | Capybara | PostgreSQL | HTML | CSS',
           selected: false

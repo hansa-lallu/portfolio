@@ -6,8 +6,12 @@ function HomePage(props) {
   return (
     <div>
       <Hero title={props.title} subTitle={props.subTitle} mainText={props.mainText}/>
+      <div className="projects-title">
+        Projects
+      </div>
       <Carousel />
     </div>
+    
   );
 }
 

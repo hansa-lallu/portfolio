@@ -5,7 +5,7 @@ import Row from 'react-bootstrap/Row';
 
 
 import WePickSignUp from '../assets/images/WePickSignUp.png';
-import ComingSoon from '../assets/images/ComingSoon.png';
+import ComingSoon from '../assets/images/comingsoon.jpg';
 import rps from '../assets/images/rps.png';
 import WeatherAPI from '../assets/images/WeatherAPI.png';
 import Bank from '../assets/images/Bank.png';

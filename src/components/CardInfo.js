@@ -8,7 +8,7 @@ function CardInfo(props) {
     divFadeIn: useSpring({ opacity: 1, from: {opacity: 0}}),
     customButton: {
       backgroundColor: 'rgb(245, 148, 163)',
-      border: '1px solid rgb(226, 96, 90)'
+      border: '1px solid rgb(226, 96, 90)',
     }
   };
 
@@ -16,9 +16,9 @@ function CardInfo(props) {
     <animated.div className="h-card-info" style={styles.divFadeIn}>
       <p className='h-card-title'>{props.title}</p>
       <p className="h-card-description">{props.description}</p>
-      <p className="h-tech-stack">{props.techStack}</p>
+      <p className="h-tech-stack" >{props.techStack}</p>
 
-      <Button style={{ ...styles.customButton }} href={props.link} target="_blank" rel="noopener noreferrer" variant="primary" size="sm">Check out the code</Button>
+      <Button style={{ ...styles.customButton }} href={props.link} target="_blank" rel="noopener noreferrer" variant="primary" size="sm" >GitHub</Button>
     </animated.div>
   );
 };

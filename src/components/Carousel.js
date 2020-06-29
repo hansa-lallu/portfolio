@@ -1,7 +1,7 @@
 import React from 'react';
 import Card from '../components/Card';
-import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
+import Header from '../components/Header'
 
 
 import WePickSignUp from '../assets/images/WePickSignUp.png';
@@ -19,6 +19,7 @@ class Carousel extends React.Component {
   constructor(props) {
     super(props);
     this.state ={
+      title: this.props.title,
       items: [
         {
           id: 0,
@@ -128,11 +129,12 @@ class Carousel extends React.Component {
 
   render() {
     return(
-      <Container fluid={true}>
+      <div>
+        <Header title={this.state.title}></Header>
         <Row className="justify-content-around">
           {this.makeItems(this.state.items)}
         </Row>
-      </Container>
+      </div>
     );
   }
 

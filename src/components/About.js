@@ -1,8 +1,44 @@
 import React from 'react';
 import Content from '../components/Content'
 import Badge from 'react-bootstrap/Badge'
+// import { Jumbotron } from 'react-bootstrap';
 
 function About(props) {
+
+  const skills = [
+    "Ruby",
+    "Rails",
+    "RSpec",
+    "Capybara",
+    "Sinatra",
+    "JavaScript",
+    "Node.js",
+    "Express.js",
+    "React",
+    "Jasmine",
+    "Jest",
+    "Enzyme",
+    "jQuery",
+    "MongoDB",
+    "Active Record",
+    "PostgreSQL",
+    "SQL",
+    "HTML",
+    "CSS",
+    "Bootstrap",
+    "Git",
+    "GitHub",
+    "Travis CI",
+    "Circle CI",
+    "Heroku",
+    "Netlify",
+    "Agile methodology",
+    "XP Values",
+    "Test-Driven-Development",
+    "Object Orientated Principles",
+    "Pair Programming",
+    "Wireframing",
+  ]
 
   const styles = {
     customBadge: {
@@ -13,52 +49,23 @@ function About(props) {
   }
 
   return (
-    <div>
       <Content>
-      <div className="projects-title">
-       About me.
-      </div>
-        <p>An ambitious Full-Stack Software Developer recently graduated from Makers, looking to join a company that embraces professional development. Previously worked as a Physiotherapist in New Zealand and London.</p>
-      <div className="projects-title">
-        Tech skills.
-        <div>
-          <Badge style={{ ...styles.customBadge }} pill variant="primary">Ruby</Badge>{' '}
-          <Badge style={{ ...styles.customBadge }} pill variant="primary">Rails</Badge>{' '}
-          <Badge style={{ ...styles.customBadge }} pill variant="primary">RSpec</Badge>{' '}
-          <Badge style={{ ...styles.customBadge }} pill variant="primary">Capybara</Badge>{' '}
-          <Badge style={{ ...styles.customBadge }} pill variant="primary">Sinatra</Badge>{' '}
-          <Badge style={{ ...styles.customBadge }} pill variant="primary">JavaScript</Badge>{' '}
-          <Badge style={{ ...styles.customBadge }} pill variant="primary">Node.js</Badge>{' '}
-          <Badge style={{ ...styles.customBadge }} pill variant="primary">Express.js</Badge>{' '}
-          <Badge style={{ ...styles.customBadge }} pill variant="primary">React</Badge>{' '}
-          <Badge style={{ ...styles.customBadge }} pill variant="primary">Jasmine</Badge>{' '}
-          <Badge style={{ ...styles.customBadge }} pill variant="primary">Jest</Badge>{' '}
-          <Badge style={{ ...styles.customBadge }} pill variant="primary">Enzyme</Badge>{' '}
-          <Badge style={{ ...styles.customBadge }} pill variant="primary">jQuery</Badge>{' '}
-          <Badge style={{ ...styles.customBadge }} pill variant="primary">MongoDB</Badge>{' '}
-          <Badge style={{ ...styles.customBadge }} pill variant="primary">Active Record</Badge>{' '}
-          <Badge style={{ ...styles.customBadge }} pill variant="primary">PostgreSQL</Badge>{' '}
-          <Badge style={{ ...styles.customBadge }} pill variant="primary">SQL</Badge>{' '}
-          <Badge style={{ ...styles.customBadge }} pill variant="primary">HTML</Badge>{' '}
-          <Badge style={{ ...styles.customBadge }} pill variant="primary">CSS</Badge>{' '}
-          <Badge style={{ ...styles.customBadge }} pill variant="primary">Bootstrap</Badge>{' '}
-          <Badge style={{ ...styles.customBadge }} pill variant="primary">Git</Badge>{' '}
-          <Badge style={{ ...styles.customBadge }} pill variant="primary">GitHub</Badge>{' '}
-          <Badge style={{ ...styles.customBadge }} pill variant="primary">Travis CI</Badge>{' '}
-          <Badge style={{ ...styles.customBadge }} pill variant="primary">Circle CI</Badge>{' '}
-          <Badge style={{ ...styles.customBadge }} pill variant="primary">Code Climate</Badge>{' '}
-          <Badge style={{ ...styles.customBadge }} pill variant="primary">Heroku</Badge>{' '}
-          <Badge style={{ ...styles.customBadge }} pill variant="primary">Netlify</Badge>{' '}
-          <Badge style={{ ...styles.customBadge }} pill variant="primary">Agile methodology</Badge>{' '}
-          <Badge style={{ ...styles.customBadge }} pill variant="primary">XP Values</Badge>{' '}
-          <Badge style={{ ...styles.customBadge }} pill variant="primary">Test-Driven-Development</Badge>{' '}
-          <Badge style={{ ...styles.customBadge }} pill variant="primary">Object Orientated Principles</Badge>{' '}
-          <Badge style={{ ...styles.customBadge }} pill variant="primary">Pair Programming</Badge>{' '}
-          <Badge style={{ ...styles.customBadge }} pill variant="primary">Wireframing</Badge>{' '}
+        <div className="projects-title">
+          About me.
         </div>
-      </div>
+        <p>An ambitious Full-Stack Software Developer recently graduated from Makers, looking to join a company that embraces professional development. Previously worked as a Physiotherapist in New Zealand and London.</p>
+        <div className="projects-title">
+          Tech skills.
+          <div>
+            {
+              skills.map(
+                (skillName) =>
+                  <Badge style={{ ...styles.customBadge }} pill variant="primary">{ skillName }</Badge>
+              )
+            }
+          </div>
+        </div>
       </Content>
-    </div>
   )
 }
 

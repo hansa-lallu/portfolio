@@ -47,11 +47,13 @@ code {
   margin: 0px;
 }
 
-.jumbotron{
+.jumbotron-bg-img {
   background-image: url(../src/assets/images/blushsmoke.jpeg);
   background-size: 100%;
   background-repeat: no-repeat;
+  margin-bottom: 0px !important;
 }
+
 
 .projects-title{
   font-size: 40px;

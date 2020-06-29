@@ -1,6 +1,6 @@
 import React from 'react';
-import Content from '../components/Content'
 import Badge from 'react-bootstrap/Badge'
+import Container from 'react-bootstrap/Container'
 // import { Jumbotron } from 'react-bootstrap';
 
 function About(props) {
@@ -49,11 +49,13 @@ function About(props) {
   }
 
   return (
-      <Content>
-        <div className="projects-title">
-          About me.
-        </div>
-        <p>An ambitious Full-Stack Software Developer recently graduated from Makers, looking to join a company that embraces professional development. Previously worked as a Physiotherapist in New Zealand and London.</p>
+    <Container>
+      <div className="projects-title">
+        About me.
+      </div>
+      <p>
+        An ambitious Full-Stack Software Developer recently graduated from Makers, looking to join a company that embraces professional development. Previously worked as a Physiotherapist in New Zealand and London.
+      </p>
         <div className="projects-title">
           Tech skills.
           <div>
@@ -64,8 +66,8 @@ function About(props) {
               )
             }
           </div>
-        </div>
-      </Content>
+      </div>
+    </Container>
   )
 }
 

@@ -58,3 +58,13 @@ code {
   padding: 15px 0px 15px 80px;
   text-align: center;
 }
+
+.success-msg {
+  color: rgb(11, 192, 138);
+  padding: 10px 15px;
+}
+
+.err-msg {
+  color: rgb(225, 101, 96);
+  padding: 10px 15px;
+}

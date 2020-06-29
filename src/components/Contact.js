@@ -4,7 +4,7 @@ import Row from 'react-bootstrap/Row';
 
 function Contact(props) {
   return (
-    <div className="jumbotron fluid p-0">
+    <div className="jumbotron fluid">
         <Row className="justify-content-center py-5"> 
             {props.contact && <h2 className="projects-title">{props.contact}</h2>}
         </Row>

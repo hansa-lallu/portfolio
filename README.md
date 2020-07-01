@@ -1,5 +1,5 @@
 
-##  Creating a porfolio to display projects using React
+##  Creating a portfolio to display projects using React
 
 ## Status - In Progress
 ### Check it out 

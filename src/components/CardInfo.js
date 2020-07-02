@@ -15,8 +15,8 @@ function CardInfo(props) {
   return(
     <animated.div className="h-card-info" style={styles.divFadeIn}>
       <p className='h-card-title'>{props.title}</p>
-      <p className="h-card-description">{props.description}</p>
       <p className="h-tech-stack" >{props.techStack}</p>
+      <p className="h-card-description">{props.description}</p>
 
       <Button style={{ ...styles.customButton }} href={props.link} target="_blank" rel="noopener noreferrer" variant="primary" size="sm" >GitHub</Button>
     </animated.div>

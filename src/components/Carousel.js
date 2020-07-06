@@ -131,7 +131,7 @@ class Carousel extends React.Component {
     return(
       <div>
         <Header title={this.state.title}></Header>
-        <Row className="justify-content-around">
+        <Row className="justify-content-around my-5">
           {this.makeItems(this.state.items)}
         </Row>
       </div>

@@ -54,7 +54,8 @@ function About(props) {
         About me.
       </div>
       <p>
-        An ambitious Full-Stack Software Developer recently graduated from Makers, looking to join a company that embraces professional development. Previously worked as a Physiotherapist in New Zealand and London.
+        An ambitious Full-Stack Software Developer recently graduated from Makers Academy - A highly intensive 16-week software engineering bootcamp.
+        Currently looking to join a company that embraces professional development. Previously worked as a Physiotherapist in New Zealand and London.
       </p>
         <div className="projects-title">
           Tech skills.

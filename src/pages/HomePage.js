@@ -8,7 +8,7 @@ import Contact from '../components/Contact';
 function HomePage(props) {
   return (
     <div>
-      <Hero title={props.title} subTitle={props.subTitle} mainText={props.mainText}/>
+      <Hero title={props.title} subTitle={props.subTitle}/>
       <About />
       <Carousel title={props.projects}/>
       <Contact contact={props.contact}/>

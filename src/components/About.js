@@ -6,19 +6,16 @@ import Container from 'react-bootstrap/Container'
 function About(props) {
 
   const skills = [
-    "Rails",
-    "Ruby",
+    "Ruby on Rails",
     "RSpec",
     "Capybara",
     "Sinatra",
     "JavaScript",
     "Node.js",
-    "Express.js",
     "React",
     "Jasmine",
     "Jest",
     "Enzyme",
-    "jQuery",
     "MongoDB",
     "Active Record",
     "PostgreSQL",
@@ -28,12 +25,10 @@ function About(props) {
     "Bootstrap",
     "Git",
     "GitHub",
-    "Travis CI",
     "Circle CI",
     "Semaphore CI",
     "Heroku",
     "AWS",
-    "Netlify",
     "Sidekiq",
     "Rollbar",
     "Agile methodology",
@@ -41,14 +36,14 @@ function About(props) {
     "Test-Driven-Development",
     "Object Orientated Principles",
     "Pair Programming",
-    "Wireframing",
   ]
 
   const styles = {
     customBadge: {
-      backgroundColor: 'rgb(245, 148, 163)',
+      backgroundColor: 'rgb(243, 197, 197)',
       border: '1.5px solid rgb(226, 96, 90)',
-      fontSize: '20px'
+      fontSize: '15px',
+      margin: '3px'
     }
   }
 
@@ -57,17 +52,18 @@ function About(props) {
       <div className="projects-title">
         About me.
       </div>
-      <p>
-        An ambitious Full-Stack Software Developer currently working as a Technical Support Enginner/Trainee Ruby Dev. Makers Academy Graduate - A highly intensive 16-week software engineering bootcamp.
-        Previously worked as a Physiotherapist in New Zealand and London.
-      </p>
+      <div className="about-me">
+        <p>+ An ambitious Full Stack Software Developer currently working as a Technical Support Enginner/Trainee Ruby Dev.</p>
+        <p>+ Makers Academy Graduate - A highly intensive 16-week software engineering bootcamp.</p>
+        <p>+ Previously worked as a Physiotherapist in New Zealand and London.</p>
+      </div>
       <div className="projects-title">
         Tech skills.
           <div>
           {
             skills.map(
               (skillName) =>
-                <Badge style={{ ...styles.customBadge }} pill variant="primary">{skillName}</Badge>
+                <Badge style={{ ...styles.customBadge }} variant="outline-secondary">{skillName}</Badge>
             )
           }
         </div>

@@ -6,8 +6,8 @@ import Container from 'react-bootstrap/Container'
 function About(props) {
 
   const skills = [
-    "Ruby",
     "Rails",
+    "Ruby",
     "RSpec",
     "Capybara",
     "Sinatra",
@@ -30,8 +30,12 @@ function About(props) {
     "GitHub",
     "Travis CI",
     "Circle CI",
+    "Semaphore CI",
     "Heroku",
+    "AWS",
     "Netlify",
+    "Sidekiq",
+    "Rollbar",
     "Agile methodology",
     "XP Values",
     "Test-Driven-Development",
@@ -54,19 +58,19 @@ function About(props) {
         About me.
       </div>
       <p>
-        An ambitious Full-Stack Software Developer recently graduated from Makers Academy - A highly intensive 16-week software engineering bootcamp.
-        Currently looking to join a company that embraces professional development. Previously worked as a Physiotherapist in New Zealand and London.
+        An ambitious Full-Stack Software Developer currently working as a Technical Support Enginner/Trainee Ruby Dev. Makers Academy Graduate - A highly intensive 16-week software engineering bootcamp.
+        Previously worked as a Physiotherapist in New Zealand and London.
       </p>
-        <div className="projects-title">
-          Tech skills.
+      <div className="projects-title">
+        Tech skills.
           <div>
-            {
-              skills.map(
-                (skillName) =>
-                  <Badge style={{ ...styles.customBadge }} pill variant="primary">{ skillName }</Badge>
-              )
-            }
-          </div>
+          {
+            skills.map(
+              (skillName) =>
+                <Badge style={{ ...styles.customBadge }} pill variant="primary">{skillName}</Badge>
+            )
+          }
+        </div>
       </div>
     </Container>
   )

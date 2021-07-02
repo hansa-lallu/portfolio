@@ -53,7 +53,7 @@ function About(props) {
         About me.
       </div>
       <div className="about-me">
-        <p>+ An ambitious Full Stack Software Developer currently working as a Technical Support Enginner/Trainee Ruby Dev.</p>
+        <p>+ An ambitious Full Stack Software Developer currently working as a Junior Ruby Dev.</p>
         <p>+ Makers Academy Graduate - A highly intensive 16-week software engineering bootcamp.</p>
         <p>+ Previously worked as a Physiotherapist in New Zealand and London.</p>
       </div>
